@@ -2,12 +2,12 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>extension@bl.ocks.org</em:id>
-    <em:name>bl.ocks.org</em:name>
+    <em:id>extension@literasee.io</em:id>
+    <em:name>literasee.io</em:name>
     <em:version>1.3.7</em:version>
-    <em:description>View any gist on bl.ocks.org.</em:description>
-    <em:creator>Mike Bostock</em:creator>
-    <em:homepageURL>http://bl.ocks.org/</em:homepageURL>
+    <em:description>View any supported gist on literasee.io.</em:description>
+    <em:creator>Ben Clinkinbeard</em:creator>
+    <em:homepageURL>http://literasee.io/</em:homepageURL>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>

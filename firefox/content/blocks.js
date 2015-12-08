@@ -21,17 +21,17 @@ window.addEventListener("load", function load() {
       if (!/^([0-9]+|[0-9a-f]{20})$/.test(id)) id = null;
       if (!/^[0-9a-f]{40}$/.test(sha)) sha = null;
 
-      var anchor = container.querySelector(".bl-ocks-button"),
-          href = "http://bl.ocks.org/" + user + (id ? "/" + id + (sha ? "/" + sha : "") : "");
+      var anchor = container.querySelector(".literasee-io-button"),
+          href = "http://literasee.io/" + user + (id ? "/" + id + (sha ? "/" + sha : "") : "");
 
       if (!anchor) {
         var div = document.createElement("div");
         div.className = "file-navigation-option";
         anchor = div.appendChild(document.createElement("a"));
-        anchor.className = "btn btn-sm bl-ocks-button";
+        anchor.className = "btn btn-sm literasee-io-button";
         var span = anchor.appendChild(document.createElement("SPAN"));
         span.className = "octicon octicon-link-external";
-        anchor.appendChild(document.createTextNode(" bl.ocks"));
+        anchor.appendChild(document.createTextNode(" literasee.io"));
 
         // Disconnect to avoid observing our own mutations.
         observer.disconnect();
